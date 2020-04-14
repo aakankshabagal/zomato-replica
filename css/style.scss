@@ -1,3 +1,1609 @@
 @use './reset.scss';
 
-/* Add your css here */
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body {
+    
+    margin: 0px;
+
+
+    
+
+    
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .h-container{
+
+  
+                        width: 100%;
+                        background: white; 
+                        
+                        height: auto;
+                        
+  
+
+
+                            
+                            .img2{
+                            /*
+                                
+                                margin-left:-530%;
+                                margin-top: -10px;
+                                float: left;
+                                
+                            */
+                            width:18%;
+                            margin-bottom: 0%;
+                                
+                            
+                                
+                            }
+                            .get-the-app{
+                                
+                            /*
+                                color: blue;
+                                margin-top: 10%;
+                                margin-right: -100%;
+                                padding-bottom: 2rem;
+                                
+                                margin-bottom: 100%;
+
+                                float: left;
+                                    
+                                    list-style-type: none;
+                            */        
+                            float: left;      
+                            margin-left: 5%;
+                            color: black;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: bold;  
+                            
+                            margin-top: 2%;
+
+
+                            }
+                            
+                            .img1{
+
+                                width:18%;
+                                
+                                margin-right: 2px;
+                                
+                                
+                            }
+
+
+                            ul{
+                                list-style-type: none;
+                                
+                                display: flex;
+                                
+                                padding-left: 0;
+                                float: right;
+                                
+                                
+                                
+                            }
+
+
+                                #nav_item_1{
+                                    color: black;
+                                    font-weight: bold;
+                                    display: flex;
+                                    align-items: flex-end;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    
+                                    float: right;
+                                    margin-top: 1rem;
+                                    margin-right: -35%;
+                                    
+                                    list-style-type: none;
+                                    
+                                    margin-right: -10%;
+                                    
+
+                                    
+                                    
+                                    
+                                
+                                    
+                                    
+                                }
+                                
+                                #nav_item_2{
+                                    color: black;
+                                    font-weight: bold;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    display: flex;
+                                    align-items: flex-end;
+
+                                    float: right;
+                                    margin-top: 1rem;
+                                  margin-right:-35%;
+                                    list-style-type: none;
+                              margin-right: 15%;
+                                    margin-left: -50%;   
+                                
+                                    
+                                    
+
+                                }
+                                
+                                #nav_item_3{
+                                    color: black;
+                                    font-weight: bold;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    margin-top: 2rem;
+                                  
+                                    float: right;
+                                    display: flex;
+                                    align-items: flex-end;
+
+                                    
+                                    margin-right: 60%;
+                                    margin-left: -60%;    
+                                    
+                                    list-style-type: none;
+                                }
+
+                                }
+
+                            .banner{
+
+                            
+                                position: absolute;
+                                
+                                
+                                
+                                background-image:url("bg.jpg");
+                                background-size: cover;
+                                
+                                
+                                height:auto;
+                              width: 100%;
+                              margin-top: -10%;
+
+
+                              
+                              .imgbtn{  
+
+                                list-style-type: none;
+                                
+                                display: flex;
+                                align-items: flex-end;
+                                padding-left: 0;
+                                float: center;
+                            
+                                margin-left: 70%;
+                                
+                                
+                            ul{
+                                list-style-type: none;
+                                
+                                display: flex;
+                                align-items: flex-end;
+                                padding-left: 0;
+                                float: center;
+                                font-size: 12px;
+                            }
+
+                            .below-head1{
+
+                                
+                                color: white;
+                                float: left;
+                                
+                                left:70%;
+                            
+                                padding: 0.5rem 1rem;
+                                bottom: 60%;
+                                margin-top: 10%;
+                                position: relative;
+                                display: flex;
+                                align-items: flex-end;
+                                width: 100%;
+                                    list-style-type: none;
+                                    justify-content: space-between;
+                                    margin-left: 5%;
+                                margin-right: 5%;
+                                
+                                
+                                    
+                            
+                            }
+                            .below-head2{
+
+                                
+                                color: white;
+                                float: right;
+                                margin-top: 5%;
+                                left:50%;
+                                width: 100%;
+                                padding: 0.5rem 1rem;
+                                bottom: 60%;
+                                position: relative;
+                                display: flex;
+                                align-items: flex-end;
+                              
+                                    list-style-type: none;
+                                    justify-content: space-between;
+                                    
+                                    border: 1px solid white;
+                                    background-color: none;
+                                       color: white;
+                                       
+                                margin-right: -60%;
+                                
+                                
+                                    
+                            
+                            }
+                          
+                        }
+                        .logo{
+
+                            align-items: center;
+                            width: 10%;
+                            height: 10%;
+                            margin-left: 45%;
+                            margin-right: 45%;
+                            margin-top: 5%;
+
+
+
+                        }  
+                        .labtag{
+
+                            font-size: 20px;
+                            color: white;
+                            font-family: Arial, Helvetica, sans-serif;
+                            text-align: center;
+                            margin-top: 2%;
+                        }
+
+                        .search-restaurant{
+
+                            align-items: center;
+                            margin-top: 2%;
+                            margin-bottom: 2%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            
+
+                            .city{
+
+                                width:10%;
+                                display: flex;
+                                border-radius: 5px;
+                                margin: 2px;
+                                height:10%;
+                            }
+
+                            #search-rest{
+
+                                width: 50%;
+                                border-radius: 5px;
+                                margin: 2px;
+                                
+                            }
+                            #search-btn{
+
+                                width: 8%;
+                                border-radius: 5px;
+                                background: red;
+                                border-color: red;
+                                color: white;
+                                margin: 2px;
+                            }
+
+
+
+                        }
+                        
+                        
+      
+                            
+                    }  //banner end 
+            
+            .widget{
+
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
+                padding-left: 0;
+                float: center;
+
+              
+
+                .firstimg{
+
+                    width: 100%;
+                    margin-left:5px;
+                    display: flex;
+                    justify-content: left;
+                    margin-top: -40%;
+
+
+                    .img4{
+                        width: 100%;
+                        margin: 10px;
+                        display: flex;
+                        justify-content: left;
+                        margin-top: -60%;
+                        height: 70%;
+    
+
+                    }
+                }
+                .secondimg{
+
+                    width: 50%;
+                    margin: 5%;
+                    background: white;
+
+                    .fm{
+
+                        
+                        margin-top: 5%;
+                        margin-right: 5%;
+                        margin-bottom: 5%;
+
+                        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+                        text-align: center;
+                        
+                        padding: 50px;
+                        border-radius: 7px;
+
+                    
+                  
+                    .del{
+
+                        border: 1px solid grey;
+                        border-radius: 2px;
+                        display: flex;
+                        justify-content: right;
+                        margin-top: 10%;
+                        
+    
+
+                        .search-del{
+                            color: grey;
+                            font-family: Arial, Helvetica, sans-serif;
+                            height: 15%;
+                            border:none;
+                            
+                            padding: 3px;
+                            
+
+                        }
+
+                        .detect-btn{
+
+                            color: black;
+                            align-content: right;
+                            margin-left: -1%;
+                            border: none;
+                        }
+
+                    }
+
+                    .order-btn{
+
+                        width: 100%;
+                        background: green;
+                        color: white;
+                        margin-top: 7%;
+
+                        border-radius: 5px;
+                        height: 5%;
+                        border:1px solid green;
+                    }
+
+                    .offer{
+
+                        color: green;
+                        margin-top: 10%;
+                        text-align: center;
+                    }
+
+                    }
+
+
+                }
+
+
+
+            }//end of widget
+
+
+
+            .collection{
+
+
+                grid-area: collection;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    
+    width: 65%;
+    margin-top: -10%;
+
+    .col-head{
+        margin:0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+       
+    .col-list{
+
+
+        display: flex;
+        flex-direction: row;
+        grid-area: collection;
+        flex-wrap: wrap;
+        padding: 0px;
+
+        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+        text-align: center;
+        
+        padding: 30px;
+        border-radius: 7px;
+
+
+        
+        
+
+    }
+    .card{
+        margin-right:10px;
+        width: 100%;
+                
+            
+        }
+
+
+    .collection-end{
+
+        text-align: center;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+        grid-area: collection;
+        width: 98.5%;
+       padding: 0.5rem;
+        height: auto;
+        
+        background-color: white;
+
+        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+        text-align: center;
+        
+        padding: 10px;
+        border-radius: 7px;
+
+    }
+
+
+    }//collection end
+
+.categories{
+
+
+    width: 100%;
+    
+
+
+    #cat-title{
+
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+
+    #cat-subtitle{
+
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 5%;
+    }
+
+    .category-list{
+
+        list-style-type: none;
+        display: flex;
+                        
+        justify-content:space-around;
+        
+        text-align: center;
+        margin-left: -2%;
+        width: 100%;
+
+        img{
+
+            width: 25%;
+        }
+
+        .lab2{
+
+            width: 30%;
+            text-align: right;
+            font-size: 14px;
+            margin-left: 30%;
+        }
+        
+    }
+}//categories end
+
+.localities{
+
+
+    width: 100%;
+   
+    #loc-title{
+
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 5%;
+
+
+    }
+    #loc-subtitle{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        margin-left: 5%;
+
+    }
+
+    .listlocation{
+
+        
+        
+        width: 90%;
+        display: flex;
+
+            
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+       
+        background: white;
+        align-items: center;
+
+        box-shadow: 0 4px 8px rgba(59, 64, 69, 64);
+        
+        
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 5%;
+        
+    
+    
+
+        .locality-list{
+
+
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 5%;
+            font-size: 14px;
+            
+          
+            
+            
+
+    ul{
+
+        width: 30%;
+        padding-bottom:15px;
+
+      
+        li{
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+    }
+     span{
+        color: rgb(157, 156, 156);
+    }
+
+
+        }
+    }
+
+
+}//end of lacalities
+
+
+footer{
+
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    color: rgb(219, 213, 213);
+    margin-top: 5%;
+    padding-bottom: 10px;
+
+    .foot-top{
+        height: 60px;
+        
+        width: 100%;
+
+        .imgfoot{
+
+            width: 50%;
+           
+        }
+    
+        img{
+    
+            width: 50px;
+            float: left;
+            margin: 10px;
+        }
+    
+        .dropdown{
+    
+            float: right;
+            
+            margin:5px;
+            color: rgb(219, 213, 213);
+            background: black;
+            button{
+                color: white;
+            }
+            
+    
+        }
+    
+    }
+
+  
+    
+.footer-wrapper{
+
+    list-style-type: none;
+    
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+   
+
+    ul{
+        list-style-type: none;
+        width: 260px;
+        margin-top: 5%;
+        
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+}
+    
+
+.line{
+
+    width: 90%;
+        height: 0.5px;
+        background-color:rgb(96, 94, 94) ;
+        margin: 15px;
+}
+
+
+.countries{
+
+
+    width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        list-style-type: none;
+        justify-content: space-between;
+
+
+        ul{
+            list-style-type: none;
+            width: 250px;
+            margin-top: 5%;
+            
+        }
+        li{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 5px;
+        }
+
+}
+
+.terms{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    height: auto;
+    list-style-type: none;
+justify-content: space-between;
+    
+}
+
+
+
+.line{
+
+    width: 90%;
+        height: 0.5px;
+        background-color:rgb(96, 94, 94) ;
+        margin: 15px;
+        padding-bottom: 5px;
+}
+
+
+
+}
+
+
+
+
+
+
+    //end of the normal view
+
+
+    //start the responsive view
+    @media screen and (max-width: 375px)
+     {
+
+        
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .h-container{
+
+  
+                        width: 100%;
+                        background: white; 
+                         
+                        height: auto;
+                        
+  
+
+                        .first{
+                            float: left;
+                            width: 50%;
+                        
+                            
+
+                            .get-the-app{
+                                
+                            /*
+                                color: blue;
+                                margin-top: 10%;
+                                margin-right: -100%;
+                                padding-bottom: 2rem;
+                                
+                                margin-bottom: 100%;
+
+                                float: left;
+                                    
+                                    list-style-type: none;
+                            */        
+                            float: left;      
+                            margin-left: 5%;
+                            color: black;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: bold;  
+                                font-size: 12px;
+                            margin-top: 25%;
+                            margin-left: 10%;
+                            
+                            
+
+
+
+
+
+                            .img2{
+                                /*
+                                    
+                                    margin-left:-530%;
+                                    margin-top: -10px;
+                                    float: left;
+                                    
+                                */
+                                width:18%;
+                                margin-bottom: -1%;
+                                    
+                                
+                                    
+                                }
+                            }
+                        }  
+
+                        
+                        .second{
+
+                            width: 50%;
+                            float: right;
+                            margin-top: -20%;
+
+                            margin-left: 140%;
+                            ul{
+                                list-style-type: none;
+                                
+                                float: right;
+                                
+                                padding-left: 0;
+                                margin-left: 100%;
+                                font-size: 12px;
+                                margin-right: -30%;
+                                margin-top: -20%;
+                                
+                                
+                            
+
+
+                                #nav_item_1{
+                                    color: black;
+                                    font-weight: bold;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    float: right;
+                                    font-size: 12px;
+                                
+                                    margin-top: 2rem;
+                                    margin-right: -250%;
+                                    
+                              /*   margin-right: -35%;
+                                    margin-left: 30%;*/
+                                    
+                                    
+                                    list-style-type: none;
+                                    /*
+                                    margin-right: -10%;
+                                    */
+
+                                    .img1{
+
+                                        width:18%;
+                                        
+                                        margin-right: 2px;
+                                        margin-top: 5px;
+                                        
+                                        
+                                    }
+        
+        
+                                    
+                                    
+                                
+                                    
+                                    
+                                }
+                                
+                                #nav_item_2{
+                                    color: black;
+                                    font-weight: bold;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    
+                                    float: right;
+                                    margin-top: 5rem;
+                                  
+                                    list-style-type: none;
+                               margin-right: -150%;
+                               margin-left: -120%;
+                                     padding-bottom: 5px;
+                                
+                                    .img1{
+
+                                        width:18%;
+                                        
+                                        margin-right: 2px;
+                            
+                                        margin-bottom: -5px;
+                                        
+                                        
+                                        
+                                    }
+        
+        
+                                    
+                                    
+
+                                }
+                                
+                                #nav_item_3{
+                                    color: black;
+                                    font-weight: bold;
+
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    margin-top: 7rem;
+                                     float: right;
+                                    margin-left: -160%;
+                                    margin-right: 20%;
+                                   
+                                      
+                                    
+                                    list-style-type: none;
+                                    .img1{
+
+                                        width:18%;
+                                        
+                                        margin-right: 2px;
+                                        
+                                        
+                                        
+                                    }
+        
+        
+                                }
+                            }
+                        }
+
+                                }
+
+                            .banner{
+
+                            position: absolute;
+                                margin-top: -15%;
+                                
+                                width:120%;
+                                background-image:url("bg.jpg");
+                                background-size: cover;
+                                height:auto;
+                              
+                                
+                                
+
+
+    
+                           .imgbtn{  
+
+                                list-style-type: none;
+                                
+                                display: flex;
+                                align-items: flex-start;
+                                padding-left: 0;
+                                float: center;
+                            
+                                
+                                
+                            ul{
+                                list-style-type: none;
+                                
+                                display: flex;
+                                align-items: flex-start;
+                                padding-left: 0;
+                                float: center;
+                                font-size: 12px;
+                            }
+
+                            .below-head1{
+
+                                
+                                color: white;
+                                float: left;
+                                
+                                left:-300%;
+                            
+                                padding: 0.5rem 1rem;
+                                bottom: 60%;
+                                margin-top: 10%;
+                                position: relative;
+                                display: flex;
+                                width: 150%;
+                                list-style-type: none;
+                                justify-content: space-between;
+                                  
+                                
+                                
+                                    
+                            
+                            }
+                            .below-head2{
+
+                                
+                                
+                                float: right;
+                                margin-top: 5%;
+                                
+                                
+                                padding: 0.5rem;
+                                bottom: 60%;
+                                position: relative;
+                                display: flex;
+                                width: 200%;
+                                padding-left: 2rem;
+                              
+                                    
+                                    justify-content: space-between;
+                                    
+                                    border: 1px solid white;
+                                    background-color: none;
+                                       color: white;
+                                       text-align: center;
+                                       
+                                margin-right: 90%;
+                                margin-left: 90%;
+                                align-items: center;
+                                
+                                
+                                
+                                    
+                            
+                            }
+                          
+                        }  //end of imgbtn
+
+
+
+                        .logo{
+
+                            align-items: center;
+                            width: 15%;
+                            height: 10%;
+                            margin-left: 45%;
+                            margin-right: 45%;
+                            margin-top: 5%;
+
+
+
+                        }  
+                        .labtag{
+
+                            font-size: 20px;
+                            color: white;
+                            font-family: Arial, Helvetica, sans-serif;
+                            text-align: center;
+                            margin-top: 2%;
+                        }
+
+                        .search-restaurant{
+
+                            align-items: center;
+                            margin-top: 2%;
+                            margin-bottom: 2%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            
+
+                            .city{
+
+                                width:90%;
+                                display: flex;
+                                border-radius: 5px;
+                                margin: 2px;
+                                height:10%;
+                            }
+
+                            #search-rest{
+
+                                width: 90%;
+                                border-radius: 5px;
+                                margin: 2px;
+                                
+                            }
+                            #search-btn{
+
+                                width: 90%;
+                                border-radius: 5px;
+                                background: red;
+                                border-color: red;
+                                color: white;
+                                margin: 2px;
+                            }
+
+
+
+                        }
+                        
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            }//end of the banner
+
+
+                            .widget{
+
+                                
+            
+                                padding-left: 0;
+                                float: center;
+                              width: 100%;
+                
+                                .firstimg{
+                
+                                    display:none;
+                
+                
+                                    .img4{
+                                      /*  width: 90%;
+                                        margin: 10px;
+                                        display: flex;
+                                        justify-content: left;
+                                        margin-top: -45%;
+                                        height: 70%;
+                                        */
+                                        display: none;
+                    
+                
+                                    }
+                                }
+                                .secondimg{
+                
+                                    
+                                    
+                                    width: 100%;
+
+
+
+                                    .subhead{
+
+                                        
+                                        text-align: justify;
+                                        width: 100%;
+
+                                    }
+                
+                                    .fm{
+                
+                                        background:white;
+                                        margin-top: 5%;
+                                    
+                                        margin-bottom: 5%;
+                                        margin-left: 10%;
+                                        width: 100%;
+                                        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+                                        text-align: center;
+                                        
+                                        padding: 50px;
+                                        border-radius: 7px;
+
+
+
+                                        
+
+                                  
+                                    .del{
+                
+                                        border: 1px solid grey;
+                                        border-radius: 2px;
+                                        display: flex;
+                                        justify-content: right;
+                                        margin-top: 5%;
+                                        width: 100%;
+                    
+                
+                                        .search-del{
+                                            color: grey;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            height: 15%;
+                                            border:none;
+                                            padding: 3px;
+                                            width: 100%;
+                
+                                        }
+                
+                                        .detect-btn{
+                
+                                            color: black;
+                                            align-content: right;
+                                            margin-left: 8%;
+                                            border: none;
+                                        }
+                
+                                    }
+                
+                                    .order-btn{
+                
+                        
+                                        background: green;
+                                        color: white;
+                                        margin-top: 10%;
+                
+                                        border-radius: 5px;
+                                        height: 5%;
+                                        border:1px solid green;
+                                    }
+                
+                                    .offer{
+                
+                                        color: green;
+                                        margin-top: 5%;
+                                        text-align: center;
+                                        margin-top: 10%;
+                                    }
+                
+                                    }
+                
+                
+                                }
+                
+                
+                
+                            }//end of widget
+                
+
+
+                            .collection{
+
+                                grid-area: collection;
+                                display: block;
+                                overflow: hidden;
+                                height: auto;
+                    margin-top: 5%;
+                    width: 100%;
+                    margin-left: 5%;
+                    display: none;
+                
+                    .col-head{
+                        margin:5px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-align: justify;
+                    }
+                       
+                    .col-list{
+                
+                
+                       display: flex;
+                        flex-direction: row;
+                        grid-area: collection;
+                        flex-wrap: wrap; 
+                        padding: 0px;
+                        width: 100%;
+                        
+                
+                    }
+                    .card{
+                        
+                    
+                        
+                        width: 200%;
+                        
+                        display: flex-end;
+                        text-align: center;
+                        
+                            
+                            
+                        }
+                
+                
+                    .collection-end{
+                
+                        text-align: center;
+                        color: red;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                
+                        grid-area: collection;
+                        
+                       padding: 0.5rem;
+                        height: auto;
+                        
+                        background-color: white;
+                    }
+                
+                
+                    }//collection end
+                    
+
+
+                
+                .categories{
+                
+                
+                    width: 100%;
+                    
+                
+                
+                    #cat-title{
+                
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        margin-left: 5%;
+                    }
+                
+                    #cat-subtitle{
+                
+                        font-size: 15px;
+                        font-family: 'Times New Roman', Times, serif;
+                        margin-left: 5%;
+                    }
+                
+                    .category-list{
+                
+                        list-style-type: none;
+                        display: flex;
+                        flex-wrap: wrap;
+                        
+                        flex-direction: row;
+                                        
+                        justify-content: space-between;
+                        
+                        text-align: center;
+                        
+                        width: 100%;
+                        margin-left: 10%;
+                        
+                        padding: 20px;
+                        flex: 1 0 25%;
+                        
+                
+                        
+                        
+                        
+                        
+                        img{
+                
+                            width: 50px;
+                            align-items: center;
+                           
+                        }
+                
+                        .lab2{
+                
+                            width: 30%;
+                            text-align: left;
+                            font-size: 14px;
+
+                        
+                        
+                        }
+                        
+                    }
+                }//categories end
+
+
+
+                
+.localities{
+
+
+    width: 100%;
+
+    #loc-title{
+
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        width: 100%;
+
+    }
+    #loc-subtitle{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+    .listlocation{
+
+        
+        
+        width: 100%;
+        background: white;
+        align-items: center;
+
+        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+        
+        
+        padding: 50px;
+        border-radius: 7px;
+
+
+        .locality-list{
+
+
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+
+            
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 15px;
+    background: white;
+
+            width: 100%;
+
+            
+
+
+    ul{
+
+        width: 30%;
+        padding-bottom:15px;
+
+      
+        li{
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+    }
+     span{
+        color: rgb(157, 156, 156);
+    }
+
+
+        }
+    }
+
+
+}//end of localities
+
+
+
+
+
+
+footer{
+
+    width: 120%;
+    background-color: rgb(41, 41, 41);
+    color: rgb(219, 213, 213);
+    margin-top: 5%;
+    padding-bottom: 10px;
+    align-items: center;
+    
+    .foot-top{
+                height: 60px;
+        
+                width: 100%;
+
+            
+    
+        img{
+    
+            width: 50px;
+            float: left;
+            margin: 10px;
+        }
+    
+        .dropdown{
+    
+            float: right;
+            
+            margin:5px;
+            color: rgb(219, 213, 213);
+            background: black;
+            button{
+                color: white;
+            }
+            
+    
+        }
+    
+    }
+
+  
+    
+.footer-wrapper{
+
+    list-style-type: none;
+    
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+
+   
+
+    ul{
+        list-style-type: none;
+        width: 190px;
+        margin-top: 5%;
+        
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+}
+    
+
+.line{
+
+    width: 90%;
+        height: 0.5px;
+        background-color:rgb(96, 94, 94) ;
+        margin: 15px;
+}
+
+
+.countries{
+
+
+    width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        list-style-type: none;
+        justify-content: space-between;
+
+
+        ul{
+            list-style-type: none;
+            width: 190px;
+            margin-top: 5%;
+            
+        }
+        li{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 5px;
+        }
+
+}
+
+.terms{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+    list-style-type: none;
+justify-content: space-between;
+    
+}
+
+
+
+.lines{
+
+    width: 90%;
+        height: 0.5px;
+        background-color:rgb(96, 94, 94) ;
+        margin: 15px;
+        padding-bottom: 5px;
+}
+
+
+
+}
+
+  }
+ }//end of body
+
