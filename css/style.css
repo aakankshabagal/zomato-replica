@@ -264,6 +264,12 @@ body .banner .search-restaurant #search-btn {
   margin: 2px;
 }
 
+body .banner .search-restaurant .search-btn {
+  background: red;
+  border-color: red;
+  color: white;
+}
+
 body .widget {
   width: 100%;
   display: -webkit-box;
@@ -891,6 +897,11 @@ body footer .line {
     border-color: red;
     color: white;
     margin: 2px;
+  }
+  body .banner .search-restaurant .search-btn {
+    background: red;
+    border-color: red;
+    color: white;
   }
   body .widget {
     padding-left: 0;
