@@ -339,8 +339,11 @@ body {
                 align-items: flex-end;
                 padding-left: 0;
                 float: center;
-
-              
+                .extra{
+                    display: none;
+                }
+  
+               
 
                 .firstimg{
 
@@ -358,7 +361,7 @@ body {
                         justify-content: left;
                         margin-top: -60%;
                         height: 70%;
-    
+                        
 
                     }
                 }
@@ -376,6 +379,7 @@ body {
                     
                     padding: 50px;
                     border-radius: 7px;
+                    
 
                 
 
@@ -1178,6 +1182,11 @@ justify-content: space-between;
                                 padding-left: 0;
                                 float: center;
                               width: 100%;
+                              .extra{
+                                display: none;
+                            }
+              
+                           
                 
                                 .firstimg{
                 

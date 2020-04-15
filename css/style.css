@@ -282,6 +282,10 @@ body .widget {
   float: center;
 }
 
+body .widget .extra {
+  display: none;
+}
+
 body .widget .firstimg {
   width: 100%;
   margin-left: 5px;
@@ -904,6 +908,9 @@ body footer .line {
     padding-left: 0;
     float: center;
     width: 100%;
+  }
+  body .widget .extra {
+    display: none;
   }
   body .widget .firstimg {
     display: none;
