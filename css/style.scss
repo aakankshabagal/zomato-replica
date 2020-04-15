@@ -367,21 +367,22 @@ body {
                     width: 50%;
                     margin: 5%;
                     background: white;
+                    margin-top: 5%;
+                    margin-right: 5%;
+                    margin-bottom: 5%;
 
-                    .fm{
+                    box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+                    text-align: center;
+                    
+                    padding: 50px;
+                    border-radius: 7px;
 
-                        
-                        margin-top: 5%;
-                        margin-right: 5%;
-                        margin-bottom: 5%;
-
-                        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
-                        text-align: center;
-                        
-                        padding: 50px;
-                        border-radius: 7px;
+                
 
                     
+
+                        
+                      
                   
                     .del{
 
@@ -441,7 +442,7 @@ body {
                         text-align: center;
                     }
 
-                    }
+                    
 
 
                 }
@@ -1201,6 +1202,22 @@ justify-content: space-between;
                                     
                                     
                                     width: 100%;
+                                    background:white;
+                                    margin-top: 5%;
+                                
+                                    margin-bottom: 5%;
+                                    margin-left: 10%;
+                                    width: 100%;
+                                    box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+                                    text-align: center;
+                                    
+                                    padding: 50px;
+                                    border-radius: 7px;
+
+
+
+                                    
+
 
 
 
@@ -1212,24 +1229,7 @@ justify-content: space-between;
 
                                     }
                 
-                                    .fm{
-                
-                                        background:white;
-                                        margin-top: 5%;
-                                    
-                                        margin-bottom: 5%;
-                                        margin-left: 10%;
-                                        width: 100%;
-                                        box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
-                                        text-align: center;
-                                        
-                                        padding: 50px;
-                                        border-radius: 7px;
-
-
-
-                                        
-
+                                
                                   
                                     .del{
                 
@@ -1288,7 +1288,7 @@ justify-content: space-between;
                                         margin-top: 10%;
                                     }
                 
-                                    }
+                                    
                 
                 
                                 }

@@ -311,9 +311,6 @@ body .widget .secondimg {
   width: 50%;
   margin: 5%;
   background: white;
-}
-
-body .widget .secondimg .fm {
   margin-top: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -324,7 +321,7 @@ body .widget .secondimg .fm {
   border-radius: 7px;
 }
 
-body .widget .secondimg .fm .del {
+body .widget .secondimg .del {
   border: 1px solid grey;
   border-radius: 2px;
   display: -webkit-box;
@@ -336,7 +333,7 @@ body .widget .secondimg .fm .del {
   margin-top: 10%;
 }
 
-body .widget .secondimg .fm .del .search-del {
+body .widget .secondimg .del .search-del {
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
   height: 15%;
@@ -344,12 +341,12 @@ body .widget .secondimg .fm .del .search-del {
   padding: 3px;
 }
 
-body .widget .secondimg .fm .del #search-del {
+body .widget .secondimg .del #search-del {
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body .widget .secondimg .fm .del .detect-btn {
+body .widget .secondimg .del .detect-btn {
   color: black;
   -ms-flex-line-pack: right;
       align-content: right;
@@ -357,7 +354,7 @@ body .widget .secondimg .fm .del .detect-btn {
   border: none;
 }
 
-body .widget .secondimg .fm .order-btn {
+body .widget .secondimg .order-btn {
   width: 100%;
   background: green;
   color: white;
@@ -367,7 +364,7 @@ body .widget .secondimg .fm .order-btn {
   border: 1px solid green;
 }
 
-body .widget .secondimg .fm .offer {
+body .widget .secondimg .offer {
   color: green;
   margin-top: 10%;
   text-align: center;
@@ -923,12 +920,6 @@ body footer .line {
   }
   body .widget .secondimg {
     width: 100%;
-  }
-  body .widget .secondimg .subhead {
-    text-align: justify;
-    width: 100%;
-  }
-  body .widget .secondimg .fm {
     background: white;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -940,7 +931,11 @@ body footer .line {
     padding: 50px;
     border-radius: 7px;
   }
-  body .widget .secondimg .fm .del {
+  body .widget .secondimg .subhead {
+    text-align: justify;
+    width: 100%;
+  }
+  body .widget .secondimg .del {
     border: 1px solid grey;
     border-radius: 2px;
     display: -webkit-box;
@@ -952,7 +947,7 @@ body footer .line {
     margin-top: 5%;
     width: 100%;
   }
-  body .widget .secondimg .fm .del #search-del {
+  body .widget .secondimg .del #search-del {
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     height: 15%;
@@ -960,18 +955,18 @@ body footer .line {
     padding: 3px;
     width: 100%;
   }
-  body .widget .secondimg .fm .del .search-del {
+  body .widget .secondimg .del .search-del {
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
   }
-  body .widget .secondimg .fm .del .detect-btn {
+  body .widget .secondimg .del .detect-btn {
     color: black;
     -ms-flex-line-pack: right;
         align-content: right;
     margin-left: 8%;
     border: none;
   }
-  body .widget .secondimg .fm .order-btn {
+  body .widget .secondimg .order-btn {
     background: green;
     color: white;
     margin-top: 10%;
@@ -979,7 +974,7 @@ body footer .line {
     height: 5%;
     border: 1px solid green;
   }
-  body .widget .secondimg .fm .offer {
+  body .widget .secondimg .offer {
     color: green;
     margin-top: 5%;
     text-align: center;
