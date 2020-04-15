@@ -283,7 +283,8 @@ body .widget {
 }
 
 body .widget .extra {
-  display: none;
+  margin-top: -5%;
+  margin-left: -13%;
 }
 
 body .widget .firstimg {
@@ -910,7 +911,8 @@ body footer .line {
     width: 100%;
   }
   body .widget .extra {
-    display: none;
+    margin-top: -5%;
+    margin-left: -30%;
   }
   body .widget .firstimg {
     display: none;
